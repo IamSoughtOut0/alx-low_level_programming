@@ -10,7 +10,7 @@ int main(void)
 int c;
 for (c = 0; c < 26; ++c)
 putchar('n' + c);
-for (c = 0; < 26; ++c)
+for (c = 0; c < 26; ++c)
 putchar('A' + c);
 putchar('\n');
 
