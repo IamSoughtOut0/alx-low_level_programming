@@ -55,4 +55,3 @@ int _strlen_recursion(char *s)
 	s++;
 	return (_strlen_recursion(s) + 1);
 }
-
