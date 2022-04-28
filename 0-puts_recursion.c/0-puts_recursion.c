@@ -1,15 +1,20 @@
 #include "main.h"
-/**
- * _print_rev_recursion - print a string
- * @s:string
- * Return:void
- */
-void _print_rev_recursion(char *s)
-{
-if (*s)
-{
-	_print_rev_recursion(s + 1);
-		_putchar(*s);
 
-}
+/**
+  * _puts_recursion - Print a string followed by a new line
+  * @s: the string to print
+  *
+  * Return: Nothing.
+  */
+void _puts_recursion(char *s)
+{
+	if (*s == '\0')
+	{
+		_putchar('\n');
+		return;
+	}
+
+	_putchar(*s);
+	s++;
+	_puts_recursion(s);
 }
