@@ -1,1 +1,1 @@
-creating a static library
+this script write a static library code
