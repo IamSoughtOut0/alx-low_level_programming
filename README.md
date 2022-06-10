@@ -1,1 +1,1 @@
-this is the beggining of C language
+we are about to learn how to debug code
